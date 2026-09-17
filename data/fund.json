@@ -1,0 +1,385 @@
+{
+  "updated": "2026-09-17T22:13:44.474Z",
+  "trackedAUM": 327285293532,
+  "deskSize": 6,
+  "traders": [
+    {
+      "id": "buffett",
+      "name": "Warren Buffett",
+      "firm": "Berkshire Hathaway",
+      "tag": "The Oracle",
+      "blurb": "Buy wonderful companies at fair prices — and never sell.",
+      "kind": "13f",
+      "source": "SEC 13F",
+      "cik": 1067983,
+      "asOf": "2026-06-30",
+      "filed": "2026-08-14",
+      "portfolioValue": 299253556246,
+      "positions": 26,
+      "top": [
+        {
+          "name": "APPLE INC",
+          "cusip": "037833100",
+          "value": 65950296923,
+          "shares": 227917808
+        },
+        {
+          "name": "AMERICAN EXPRESS CO",
+          "cusip": "025816109",
+          "value": 51282319275,
+          "shares": 151610700
+        },
+        {
+          "name": "ALPHABET INC",
+          "cusip": "02079K107",
+          "value": 37764088383,
+          "shares": 105979600
+        },
+        {
+          "name": "COCA COLA CO",
+          "cusip": "191216100",
+          "value": 32508000000,
+          "shares": 400000000
+        },
+        {
+          "name": "BANK OF AMER CORP",
+          "cusip": "060505104",
+          "value": 27543790975,
+          "shares": 483394015
+        },
+        {
+          "name": "CHEVRON CORPORATION",
+          "cusip": "166764100",
+          "value": 13986141890,
+          "shares": 84375856
+        },
+        {
+          "name": "OCCIDENTAL PETE CORP",
+          "cusip": "674599105",
+          "value": 12868205304,
+          "shares": 264941431
+        },
+        {
+          "name": "CHUBB LIMITED",
+          "cusip": "H1467J104",
+          "value": 11670066615,
+          "shares": 34249183
+        }
+      ]
+    },
+    {
+      "id": "burry",
+      "name": "Michael Burry",
+      "firm": "Scion Asset Mgmt",
+      "tag": "The Big Short",
+      "blurb": "Contrarian to the bone; bets against the crowd and its darlings.",
+      "kind": "13f",
+      "source": "SEC 13F",
+      "cik": 1649339,
+      "asOf": "2025-09-30",
+      "filed": "2025-11-03",
+      "portfolioValue": 1381198076,
+      "positions": 8,
+      "top": [
+        {
+          "name": "PALANTIR TECHNOLOGIES INC",
+          "cusip": "69608A108",
+          "value": 912100000,
+          "shares": 5000000
+        },
+        {
+          "name": "NVIDIA CORPORATION",
+          "cusip": "67066G104",
+          "value": 186580000,
+          "shares": 1000000
+        },
+        {
+          "name": "PFIZER INC",
+          "cusip": "717081103",
+          "value": 152880000,
+          "shares": 6000000
+        },
+        {
+          "name": "HALLIBURTON CO",
+          "cusip": "406216101",
+          "value": 61500000,
+          "shares": 2500000
+        },
+        {
+          "name": "MOLINA HEALTHCARE INC",
+          "cusip": "60855R100",
+          "value": 23920000,
+          "shares": 125000
+        },
+        {
+          "name": "LULULEMON ATHLETICA INC",
+          "cusip": "550021109",
+          "value": 17793000,
+          "shares": 100000
+        },
+        {
+          "name": "SLM CORP",
+          "cusip": "78442P106",
+          "value": 13287895,
+          "shares": 480054
+        },
+        {
+          "name": "BRUKER CORP",
+          "cusip": "116794207",
+          "value": 13137181,
+          "shares": 48334
+        }
+      ]
+    },
+    {
+      "id": "ackman",
+      "name": "Bill Ackman",
+      "firm": "Pershing Square",
+      "tag": "The Activist",
+      "blurb": "Concentrated, high-conviction stakes and a bullhorn to match.",
+      "kind": "13f",
+      "source": "SEC 13F",
+      "cik": 1336528,
+      "asOf": "2026-03-31",
+      "filed": "2026-05-15",
+      "portfolioValue": 13714299861,
+      "positions": 10,
+      "top": [
+        {
+          "name": "BROOKFIELD CORP",
+          "cusip": "11271J107",
+          "value": 2415946008,
+          "shares": 59697208
+        },
+        {
+          "name": "AMAZON COM INC",
+          "cusip": "023135106",
+          "value": 2385104083,
+          "shares": 11451981
+        },
+        {
+          "name": "UBER TECHNOLOGIES INC",
+          "cusip": "90353T100",
+          "value": 2154934398,
+          "shares": 29958771
+        },
+        {
+          "name": "MICROSOFT CORP",
+          "cusip": "594918104",
+          "value": 2092970053,
+          "shares": 5654078
+        },
+        {
+          "name": "RESTAURANT BRANDS INTL INC",
+          "cusip": "76131D103",
+          "value": 1673501194,
+          "shares": 22645483
+        },
+        {
+          "name": "META PLATFORMS INC",
+          "cusip": "30303M102",
+          "value": 1522358404,
+          "shares": 2660861
+        },
+        {
+          "name": "HOWARD HUGHES HOLDINGS INC",
+          "cusip": "44267T102",
+          "value": 1192581569,
+          "shares": 18852064
+        },
+        {
+          "name": "SEAPORT ENTMT GROUP INC",
+          "cusip": "812215200",
+          "value": 107910794,
+          "shares": 5023780
+        }
+      ]
+    },
+    {
+      "id": "tepper",
+      "name": "David Tepper",
+      "firm": "Appaloosa",
+      "tag": "The Risk-On King",
+      "blurb": "Reads the Fed better than anyone and sizes up hard.",
+      "kind": "13f",
+      "source": "SEC 13F",
+      "cik": 1656456,
+      "asOf": "2026-06-30",
+      "filed": "2026-08-14",
+      "portfolioValue": 7725383349,
+      "positions": 27,
+      "top": [
+        {
+          "name": "AMAZON COM INC",
+          "cusip": "023135106",
+          "value": 1191700000,
+          "shares": 5000000
+        },
+        {
+          "name": "MICRON TECHNOLOGY INC",
+          "cusip": "595112103",
+          "value": 1125432750,
+          "shares": 975000
+        },
+        {
+          "name": "TAIWAN SEMICONDUCTOR MANUFAC",
+          "cusip": "874039100",
+          "value": 787990500,
+          "shares": 1650000
+        },
+        {
+          "name": "ALPHABET INC",
+          "cusip": "02079K107",
+          "value": 653660500,
+          "shares": 1850000
+        },
+        {
+          "name": "UBER TECHNOLOGIES INC",
+          "cusip": "90353T100",
+          "value": 555204163,
+          "shares": 7694071
+        },
+        {
+          "name": "ISHARES INC",
+          "cusip": "464286772",
+          "value": 489607500,
+          "shares": 2425000
+        },
+        {
+          "name": "META PLATFORMS INC",
+          "cusip": "30303M102",
+          "value": 380220750,
+          "shares": 675000
+        },
+        {
+          "name": "VISTRA CORP",
+          "cusip": "92840M102",
+          "value": 351408597,
+          "shares": 2215272
+        }
+      ]
+    },
+    {
+      "id": "druckenmiller",
+      "name": "Stanley Druckenmiller",
+      "firm": "Duquesne Family Office",
+      "tag": "The Macro GOAT",
+      "blurb": "Never had a down year; rotates fast and hits big.",
+      "kind": "13f",
+      "source": "SEC 13F",
+      "cik": 1536411,
+      "asOf": "2026-06-30",
+      "filed": "2026-08-14",
+      "portfolioValue": 5210856000,
+      "positions": 89,
+      "top": [
+        {
+          "name": "Natera Inc",
+          "cusip": "632307104",
+          "value": 864923000,
+          "shares": 3186306
+        },
+        {
+          "name": "Insmed Inc",
+          "cusip": "457669307",
+          "value": 295837000,
+          "shares": 2774690
+        },
+        {
+          "name": "Taiwan Semiconductor Manufac",
+          "cusip": "874039100",
+          "value": 281613000,
+          "shares": 589680
+        },
+        {
+          "name": "Ishares Inc",
+          "cusip": "464286400",
+          "value": 264414000,
+          "shares": 7664170
+        },
+        {
+          "name": "Amazon Com Inc",
+          "cusip": "023135106",
+          "value": 238555000,
+          "shares": 1000900
+        },
+        {
+          "name": "Stmicroelectronics N V",
+          "cusip": "861012102",
+          "value": 232375000,
+          "shares": 3102880
+        },
+        {
+          "name": "Invesco Exchange Traded Fd T",
+          "cusip": "46137V357",
+          "value": 190514000,
+          "shares": 895400
+        },
+        {
+          "name": "Fox Corp",
+          "cusip": "35137L105",
+          "value": 144623000,
+          "shares": 2837200
+        }
+      ]
+    },
+    {
+      "id": "pelosi",
+      "name": "Nancy Pelosi",
+      "firm": "U.S. Congress",
+      "tag": "The Insider",
+      "blurb": "Somehow always long the right megacap calls at the right time.",
+      "kind": "congress",
+      "source": "House/Senate PTR",
+      "pending": true
+    }
+  ],
+  "consensus": [
+    {
+      "name": "AMAZON COM INC",
+      "cusip": "023135106",
+      "value": 3815359083,
+      "holders": [
+        "Bill Ackman",
+        "David Tepper",
+        "Stanley Druckenmiller"
+      ]
+    },
+    {
+      "name": "ALPHABET INC",
+      "cusip": "02079K107",
+      "value": 38417748883,
+      "holders": [
+        "Warren Buffett",
+        "David Tepper"
+      ]
+    },
+    {
+      "name": "UBER TECHNOLOGIES INC",
+      "cusip": "90353T100",
+      "value": 2710138561,
+      "holders": [
+        "Bill Ackman",
+        "David Tepper"
+      ]
+    },
+    {
+      "name": "META PLATFORMS INC",
+      "cusip": "30303M102",
+      "value": 1902579154,
+      "holders": [
+        "Bill Ackman",
+        "David Tepper"
+      ]
+    },
+    {
+      "name": "TAIWAN SEMICONDUCTOR MANUFAC",
+      "cusip": "874039100",
+      "value": 1069603500,
+      "holders": [
+        "David Tepper",
+        "Stanley Druckenmiller"
+      ]
+    }
+  ]
+}

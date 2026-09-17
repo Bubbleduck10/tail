@@ -1,0 +1,113 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>TAIL — tail the smart money</title>
+<meta name="description" content="$TAIL rides the real books of the market's most-watched traders — Buffett, Burry, Ackman, Pelosi & co — pulled live from public filings. When they win, the fund wins, and fees flywheel back into the token.">
+<link rel="icon" type="image/svg+xml" href="img/tail-mark.svg">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;700&family=Inter:ital,wght@0,400;0,500;1,400&family=IBM+Plex+Mono:wght@500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/tail.css">
+</head>
+<body>
+<div class="grid-layer" aria-hidden="true"></div>
+<div class="aurora" aria-hidden="true"></div>
+<svg id="constellation" aria-hidden="true"></svg>
+
+<header class="top">
+  <div class="bar">
+    <a class="brand" href="#top"><img class="mark" src="img/tail-mark.svg" alt="" width="28" height="28">TAIL</a>
+    <nav>
+      <a href="#desk">Desk</a>
+      <a href="#book">Book</a>
+      <a href="#flywheel">Flywheel</a>
+      <a href="#token">$TAIL</a>
+      <span class="live">LIVE FILINGS</span>
+    </nav>
+  </div>
+</header>
+
+<div class="tickerband"><div class="ticker" id="ticker"></div></div>
+
+<main id="top">
+
+  <section class="hero" id="hero" data-reveal>
+    <div class="wrap">
+      <div>
+        <p class="eyebrow">Solana · a fund that tails the smart money</p>
+        <h1>Stop guessing.<br><span class="tail-word">Tail</span> the people<br>who already know.</h1>
+        <p class="lede">$TAIL rides the real books of the market's most-watched traders — pulled straight from their public filings, not vibes. When their trades win, the fund wins, and fees flywheel back into the token.</p>
+        <p class="names">Now tailing <b id="rosterLine">…</b></p>
+      </div>
+      <div class="ledger" id="ledger"></div>
+    </div>
+  </section>
+
+  <div class="ca">
+    <div class="wrap">
+      <span class="tag">$TAIL · Contract</span>
+      <code id="caAddr">not launched yet</code>
+      <button id="caCopy" type="button" data-addr="">Copy</button>
+      <span class="soon" id="caSoon">CA drops here at launch</span>
+    </div>
+  </div>
+
+  <section id="desk">
+    <div class="head2">
+      <p class="eyebrow" data-reveal>The Desk</p>
+      <h2 data-reveal style="--i:1">Six traders. One book you can hold.</h2>
+      <p class="sub" data-reveal style="--i:2">Every card is live from that trader's latest public filing — institutional 13F holdings from the SEC, congressional trades from House &amp; Senate disclosures. Click any card to open the full dossier.</p>
+    </div>
+    <div class="wrap"><div class="desk" id="deskGrid"></div></div>
+  </section>
+
+  <section id="book">
+    <div class="head2">
+      <p class="eyebrow" data-reveal>The Book</p>
+      <h2 data-reveal style="--i:1">Consensus — where the smart money overlaps.</h2>
+      <p class="sub" data-reveal style="--i:2">Names held by more than one of the desk right now. When the sharpest books agree, that's the highest-conviction slice of what $TAIL tails. Hover a trader above to see the threads.</p>
+    </div>
+    <div class="wrap"><div class="tablewrap" data-reveal><table class="book-table"><thead><tr><th>Name</th><th>Held&nbsp;by</th><th>Who</th><th style="text-align:right">Combined&nbsp;value</th></tr></thead><tbody id="consensus"></tbody></table></div></div>
+  </section>
+
+  <section class="flywheel" id="flywheel">
+    <div class="head2">
+      <p class="eyebrow" data-reveal>The Flywheel</p>
+      <h2 data-reveal style="--i:1">How winning trades lift $TAIL.</h2>
+      <p class="sub" data-reveal style="--i:2">The desk does the work. The token captures it.</p>
+    </div>
+    <div class="steps">
+      <div class="step" data-reveal style="--i:0"><div class="n">01</div><h4>The desk trades</h4><p>Buffett, Burry, Pelosi &amp; co. put on positions — disclosed in public filings the fund tracks in real time.</p></div>
+      <div class="step" data-reveal style="--i:1"><div class="n">02</div><h4>Winners print</h4><p>As those books gain, the tracked value of the fund climbs. You're along for every good call.</p></div>
+      <div class="step" data-reveal style="--i:2"><div class="n">03</div><h4>Fees collected</h4><p>Trading fees on $TAIL accrue to the treasury — the fuel for the flywheel.</p></div>
+      <div class="step" data-reveal style="--i:3"><div class="n">04</div><h4>Bought back in</h4><p>Fees are flywheeled back into $TAIL by hand, tightening supply and lifting the floor. Then it repeats.</p></div>
+    </div>
+  </section>
+
+  <section class="token" id="token">
+    <div class="head2">
+      <p class="eyebrow" data-reveal>$TAIL</p>
+      <h2 data-reveal style="--i:1">One token. The whole desk.</h2>
+    </div>
+    <div class="wrap">
+      <p class="sub" data-reveal style="max-width:none">Holding $TAIL is holding a claim on the smartest book in the market — and on the flywheel that compounds it. Solana-native. The contract address drops in the bar above at launch.</p>
+      <p class="disclaimer" data-reveal style="--i:1">$TAIL is a community token — not an investment fund, a security, or financial advice. It does not custody assets, take deposits, or execute trades on anyone's behalf. Holdings shown are public regulatory filings of third parties, reproduced for reference and subject to reporting lags (13F filings are quarterly; congressional PTRs can lag weeks). Nothing here is a recommendation to buy or sell anything. Do your own research.</p>
+    </div>
+  </section>
+
+</main>
+
+<footer><div class="wrap">
+  <span class="brand" style="font-size:15px"><img class="mark" src="img/tail-mark.svg" alt="" width="22" height="22">TAIL</span>
+  <span>·</span><span>tailing the smart money on Solana</span>
+  <span>·</span><span id="updated">—</span>
+</div></footer>
+
+<dialog id="dossier" aria-labelledby="dossierName"></dialog>
+<div class="toast" id="toast" role="status" aria-live="polite"></div>
+
+<script src="js/tail.js" type="module"></script>
+</body>
+</html>
